@@ -1,0 +1,19 @@
+.buttonBox {
+   width: 100%;
+   height: calc(100% - 110px);
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(5, 1fr);
+   grid-gap: 10px;
+ }
+
+ .buttonBox div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+ }
+
+ .buttonBox div:hover {
+   background-color: rgba(224, 224, 224, 0.836);
+ }
